@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+    line-height:1.6;
+    background:#ffffff;
+    color:#222;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.hero h2{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:20px;
+}
+
+section{
+    margin-top:50px;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#2563eb;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.card{
+    background:#f4f4f4;
+    padding:10px 20px;
+    border-radius:8px;
+}
+
+.project{
+    background:#f9f9f9;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+
+.education{
+    margin-bottom:20px;
+}
+
+a{
+    display:inline-block;
+    margin-top:10px;
+    background:#2563eb;
+    color:white;
+    padding:10px 15px;
+    border-radius:5px;
+    text-decoration:none;
+}
+
+a:hover{
+    opacity:0.9;
+}
+
+footer{
+    text-align:center;
+    margin-top:50px;
+    padding:20px;
+}
